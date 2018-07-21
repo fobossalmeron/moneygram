@@ -1,0 +1,21 @@
+---
+title: 'moneygram'
+timezone: UTC
+email: success@designsuccess.com
+description: MoneyGram
+og_image: "/assets/img/og_image.jpg"
+baseurl: 
+url: http://moneygram.designsuccess.com
+markdown: kramdown
+plugins:
+- jekyll-feed
+- octopress-autoprefixer
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- webpack
+sass:
+  style: compressed
+github:
+- metadata
