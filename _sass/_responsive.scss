@@ -41,7 +41,7 @@
         }
     }
     .headerWrapper nav {
-        margin-left: -31%;
+        margin-left: -34%;
     }
     .overVideo .firstGrid {
         grid-template-columns: 1fr 1fr .4fr;
@@ -153,7 +153,10 @@
 }
 
 @include media-query(1000px) {
-
+    .halfVideo {
+        width: 100% !important;
+        padding-bottom: 56.6%;
+    }
     #rebranding{
         p{
             padding: 0 4%;
@@ -335,7 +338,8 @@
         text-decoration: underline;
         padding-left: 0;
         display: block;
-        text-decoration-color: $brand-main-color;
+        text-decoration-color: $brand-main-color; 
+        -webkit-text-decoration-color: $brand-main-color;
     }
     h2 {
         font-size: 4rem;
@@ -627,6 +631,10 @@
     html {
         font-size: 50%;
     }
+    #contact .form input, #contact .form textarea {
+        font-size: 2rem;
+    }
+
     section p {
         font-size: 2.7rem;
     }
@@ -807,12 +815,6 @@
     #contact {
         h2 {
             font-size: 6.5rem;
-        }
-        .form {
-            input,
-            textarea {
-                font-size: 1.3rem;
-            }
         }
     }
     #how {

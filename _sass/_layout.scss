@@ -28,11 +28,12 @@ header {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     nav ul {
-      max-width: 440px;
+      max-width: 460px;
     }
     a {
       color: black;
       transition: 0.3s ease all;
+      font-weight: 400;
     }
     .designSuccessLogo * {
       fill: black;
@@ -264,7 +265,7 @@ h3 {
 .fullVideo,
 .halfVideo {
   width: 100% !important;
-  height: 0;
+  height: 0 !important;
   padding-bottom: 56.6%;
   display: flex;
   position: relative;
