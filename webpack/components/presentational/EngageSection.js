@@ -8,6 +8,7 @@ import VimeoIcon from "svg-react-loader?name=VimeoIcon!../../../assets/img/socia
 import YouTubeIcon from "svg-react-loader?name=YouTubeIcon!../../../assets/img/social/youtube.svg";
 import LinkedInIcon from "svg-react-loader?name=LinkedInIcon!../../../assets/img/social/linkedin.svg";
 import TwitterIcon from "svg-react-loader?name=TwitterIcon!../../../assets/img/social/twitter.svg";
+import ChallengesWelcome from "svg-react-loader?name=ChallengesWelcome!../../../assets/img/layout/challengesWelcome.svg";
 
 class EngageSection extends Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class EngageSection extends Component {
     return (
       <section id="contact">
         <DesignSuccess className="engageLogo" />
-        <h2>challenges welcome</h2>
+        <h2><ChallengesWelcome/></h2>
         <div className="locationContact">
           <ul className="chooseList">
             <li>las vegas</li>

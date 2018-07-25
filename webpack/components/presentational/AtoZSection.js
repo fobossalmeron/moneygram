@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
 import Graphic1 from "svg-react-loader?name=Graphic1!../../../assets/img/layout/graphic1.svg";
+import Graphic1mobile from "svg-react-loader?name=Graphic1mobile!../../../assets/img/layout/graphic1mobile.svg";
 
 class AtoZSection extends Component {
   render() {
@@ -24,14 +25,15 @@ class AtoZSection extends Component {
         <div className="quote">
           <p>
             design:success brings a proven consumer-driven process were every
-            recommendation is supported by data.<br />
+            recommendation is supported by data.
             A great partner to identify and execute on Product & Services
             innovation. It was a thorough and controlled process and not only
             was effective but we also had a lot of fun.
           </p>
           <span>Juan Agualimpia, f. CMO MoneyGram</span>
         </div>
-        <Graphic1 id="rippleGram"/>
+        <Graphic1 className="rippleGram"/>
+        <Graphic1mobile className="rippleGram mobile"/>
         <ReactPlayer url="https://vimeo.com/219006593/ef6c632d94" className="fullVideo"/>
         <h3>inspiration from insights</h3>
         <p>

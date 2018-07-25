@@ -145,7 +145,7 @@ class Nav extends Component {
 
     return (
       <header>
-        <div className="headerWrapper">
+        <div className={`headerWrapper ${active}`}>
           <a
             href={"https://designsuccess.com"}
             className="hideText"
@@ -160,7 +160,7 @@ class Nav extends Component {
             className={active}
             onClick={() => this.toggleMenu()}
           />
-          <nav className={active} onClick={() => this.closeNav()}>
+          <nav className={active}>
             <ul>
             <li
                 onClick={() => {

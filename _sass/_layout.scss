@@ -214,8 +214,11 @@ h3 {
   width: 100%;
 }
 
-#rippleGram {
+.rippleGram {
   padding: 4% 0 8% 0;
+  &.mobile{
+    display: none;
+  }
 }
 
 .quote {
