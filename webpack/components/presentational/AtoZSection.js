@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
-import Graphic1 from "svg-react-loader?name=Graphic1!../../../assets/img/layout/graphic1.svg";
-import Graphic1mobile from "svg-react-loader?name=Graphic1mobile!../../../assets/img/layout/graphic1mobile.svg";
+import Graphic1 from "./../../../assets/img/layout/graphic1.svg";
+import Graphic1mobile from "./../../../assets/img/layout/graphic1mobile.svg";
 
 class AtoZSection extends Component {
   render() {

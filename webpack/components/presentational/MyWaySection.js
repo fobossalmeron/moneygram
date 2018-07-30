@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MyWayIcon from "svg-react-loader?name=MyWayIcon!../../../assets/img/layout/myWay.svg";
+import MyWayIcon from "./../../../assets/img/layout/myWay.svg";
 
 class MyWaySection extends Component {
   render() {

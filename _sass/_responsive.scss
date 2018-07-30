@@ -1,3 +1,8 @@
+@include media-query(1550px){
+    .headerWrapper nav {
+        margin-left: -60%;
+    }
+}
 @include media-query(1500px) {
     #what .micrositesContainer li h3 {
         hyphens: auto;
@@ -39,9 +44,6 @@
                 }
             }
         }
-    }
-    .headerWrapper nav {
-        margin-left: -34%;
     }
     .overVideo .firstGrid {
         grid-template-columns: 1fr 1fr .4fr;
@@ -510,6 +512,8 @@
                 transform: translateX(-100%);
                 transition: 0.3s ease all;
                 margin-left: 0;
+                min-width: 100vw;
+                min-height: 100vh;
                 &.active {
                     transform: translateX(0);
                 }

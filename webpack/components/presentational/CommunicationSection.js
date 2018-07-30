@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PlayButtonIcon from "svg-react-loader?name=PlayButtonIcon!../../../assets/img/layout/playButton.svg";
+import PlayButtonIcon from "./../../../assets/img/layout/playButton.svg";
 import Modal from "react-modal";
 import ReactPlayer from "react-player";
 

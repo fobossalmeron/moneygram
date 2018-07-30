@@ -553,7 +553,7 @@ svg {
 
 #contact {
     display: grid;
-    padding: 2% 0 0 0;
+    padding: 1% 0 0 0;
     grid-template-columns: 1fr 1fr 1fr 3fr;
     grid-template-areas: ". logo logo ." ". h2 h2 ." ". form form ." ". form form locations " ". form form locations2 " "footer footer footer footer";
     .locationContact {
@@ -562,7 +562,7 @@ svg {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-content: space-between;
-        padding: 0 16.6% 0 10%;
+        padding: 0 12.6% 0 6%;
         margin-top: 4%;
         font-size: 1.6rem;
         &~.locationContact {
@@ -602,38 +602,48 @@ svg {
     }
     h2 {
         grid-area: h2;
+        font-size: 9rem;
         color: white;
         font-family: 'Eurostile LT', sans-serif;
         font-weight: bold;
-        font-size: 7rem;
         margin-top: 10%;
         line-height: .9;
-        max-width: 460px;
-        display: block;
-        width: 100%;
-        align-self: flex-start;
-        justify-self: flex-start;
-        &:after {
-            display: none;
+        padding-left: 0;
+        svg{
+            max-width: 460px;
         }
     }
     .form {
         grid-area: form;
         margin-top: 10%;
         min-height: 260px;
-        form div {
+        position: relative;
+        form .formGrid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 10%;
             grid-template-areas: "name company" "email phone" "challenge challenge";
             font-family: inherit;
             min-height: 210px;
-            p {
-                font-size: 3rem;
-                padding: 3%;
-                text-align: center;
-                grid-column: 1 / span 2;
+            span {
+                color: orange;
+                font-size: 1.3rem;
             }
+            .hidden {
+                display: none;
+            }
+        }
+        p {
+            font-size: 3rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            background-color: black;
+            margin-bottom: 0;
         }
         input,
         textarea {
@@ -646,6 +656,8 @@ svg {
             resize: none;
             line-height: .5;
             font-size: 1.8rem;
+            max-width: 100%;
+            width: 100%;
             &:focus {
                 outline: none;
             }
@@ -664,8 +676,10 @@ svg {
                 grid-area: phone;
             }
         }
-        textarea {
+        .textArea {
             grid-area: challenge;
+        }
+        textarea {
             margin-top: 10%;
             height: 25px;
             line-height: 1.6;
@@ -673,12 +687,14 @@ svg {
         button {
             font-family: inherit;
             background-color: transparent;
-            border: 1px solid #4D4D4D;
+            border: 1px solid #3d3d3d;
             color: grey;
             font-size: 1.8rem;
             width: 90px;
             padding: 5px;
             margin-top: 10%;
+            margin-left: 5px;
+            margin-bottom: 5px;
             cursor: pointer;
             transition: .3s ease all;
             &:hover {

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Nav from "./Nav";
-import Modal from "react-modal";
 import HomeSection from "./presentational/HomeSection";
 import AtoZSection from "./presentational/AtoZSection";
 import MyWaySection from "./presentational/MyWaySection";

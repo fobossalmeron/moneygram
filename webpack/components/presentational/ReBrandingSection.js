@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MoneyGramIcon from "svg-react-loader?name=MoneyGramIcon!../../../assets/img/layout/moneyGram.svg";
+import MoneyGramIcon from "./../../../assets/img/layout/moneyGram.svg";
 
 class ReBrandingSection extends Component {
   render() {

@@ -28,12 +28,13 @@ header {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     nav ul {
-      max-width: 460px;
+      max-width: 520px;
     }
     a {
       color: black;
       transition: 0.3s ease all;
-      font-weight: 400;
+      font-weight: 200;
+      font-size: 1.7rem;
     }
     .designSuccessLogo * {
       fill: black;
@@ -194,6 +195,7 @@ h3 {
     position: absolute;
     bottom: 7px;
     z-index: -1;
+    left: 0;
   }
   span {
     color: $brand-main-color;
@@ -312,7 +314,7 @@ h3 {
     width: 100%;
     grid-column: 4 / span 2;
     grid-row: 2 / span 1;
-    .txt {
+    #txt, #txt1, #txt2 {
       fill: black;
     }
   }
@@ -466,5 +468,20 @@ h3 {
         background-image: url("../img/layout/video6.jpg");
       }
     }
+  }
+}
+
+#contact{
+  h2{
+    &:after{
+      display: none;
+    }
+    text-decoration: none;
+    display: block;
+    align-self: unset;
+    justify-self: flex-start;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: left;
   }
 }

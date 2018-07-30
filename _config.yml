@@ -1,11 +1,11 @@
 ---
-title: 'moneygram'
+title: 'Reimagine, reinvent and reposition MoneyGram - by design:success'
 timezone: UTC
 email: success@designsuccess.com
-description: MoneyGram
-og_image: "/assets/img/og_image.jpg"
-baseurl: 
-url: http://moneygram.designsuccess.com
+description: 'Transformational innovation story: Re-imagine and re-inventing MoneyGram. Re-invented from A to Z by design:success'
+keywords: 'design:success, design success, Innovation, transformational innovation, branding, advertising, store design, communication, MoneyGram'
+og_image: '/assets/img/og_image.jpg'
+url: http://designsuccess.com/moneygram/
 markdown: kramdown
 plugins:
 - jekyll-feed
