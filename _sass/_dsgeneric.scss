@@ -931,3 +931,46 @@ svg {
         transform: rotate(360deg);
     }
 }
+
+.loading{
+    width: 100vw;
+    height: 100vh;
+    font-size: 30px;
+    padding-top: 5%;
+    font-family: inherit;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    svg{
+        max-width: 150px;
+        & * {
+            fill: white;
+        }
+    }
+    h3{
+        margin-bottom: 0;
+        font-weight: 100;
+    }
+    h2{
+        font-size: 2rem;
+        align-self: center;
+        font-weight: 100;
+        padding-left: 0;
+        text-decoration: none;
+        &:after, &:before{
+            display: none;
+        }
+    }
+    button{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        border: 0;
+        font-size: 0;
+    }
+}
