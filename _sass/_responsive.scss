@@ -1,8 +1,9 @@
-@include media-query(1550px){
+@include media-query(1550px) {
     .headerWrapper nav {
         margin-left: -60%;
     }
 }
+
 @include media-query(1500px) {
     #what .micrositesContainer li h3 {
         hyphens: auto;
@@ -97,7 +98,7 @@
         text-decoration: underline;
         padding-left: 0;
         display: block;
-        text-decoration-color: $brand-main-color; 
+        text-decoration-color: $brand-main-color;
         -webkit-text-decoration-color: $brand-main-color;
     }
     .sectionContainer {
@@ -171,14 +172,15 @@
         width: 100% !important;
         padding-bottom: 56.6%;
     }
-    #rebranding{
-        p{
+    #rebranding {
+        p {
             padding: 0 4%;
             margin-bottom: 12%;
         }
     }
-    #communication{
-        h2, p{
+    #communication {
+        h2,
+        p {
             padding: 0 4%;
         }
     }
@@ -593,22 +595,25 @@
     section {
         padding: 8% 4% 2% 4%;
     }
+    .rippleGram {
+        display: none;
+        &.mobile {
+            display: flex;
+            max-width: 500px;
+            min-width: 0;
+            min-height: auto;
+        }
+    }
 }
 
 @include media-query(900px) {
-    .rippleGram {
-         display: none;
-        &.mobile{
-          display: flex;
-        }
-      }
-    .whiteRebranding{
+    .whiteRebranding {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-items: center;
         padding: 4% 4% 12% 4%;
-        img{
+        img {
             margin-bottom: 4%;
         }
     }
@@ -635,10 +640,10 @@
     html {
         font-size: 50%;
     }
-    #contact .form input, #contact .form textarea {
+    #contact .form input,
+    #contact .form textarea {
         font-size: 2rem;
     }
-
     section p {
         font-size: 2.7rem;
     }
