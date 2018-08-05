@@ -88,6 +88,18 @@
 }
 
 @include media-query(1100px) {
+    h2,
+    h3 {
+        &:before,
+        &:after {
+            display: none;
+        }
+        text-decoration: underline;
+        padding-left: 0;
+        display: block;
+        text-decoration-color: $brand-main-color; 
+        -webkit-text-decoration-color: $brand-main-color;
+    }
     .sectionContainer {
         .sectionList .section {
             min-height: 280px;
@@ -330,18 +342,6 @@
                 }
             }
         }
-    }
-    h2,
-    h3 {
-        &:before,
-        &:after {
-            display: none;
-        }
-        text-decoration: underline;
-        padding-left: 0;
-        display: block;
-        text-decoration-color: $brand-main-color; 
-        -webkit-text-decoration-color: $brand-main-color;
     }
     h2 {
         font-size: 4rem;

@@ -1,1 +1,0 @@
-# Microsite for case: moneygram

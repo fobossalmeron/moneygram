@@ -81,7 +81,7 @@ class CommunicationSection extends Component {
           </div>
           <div
             className="video"
-            onClick={() => this.chooseVideo("https://vimeo.com/219011983")}
+            onClick={() => this.chooseVideo("https://vimeo.com/219007429")}
           >
             <PlayButtonIcon />
           </div>

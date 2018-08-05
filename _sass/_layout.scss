@@ -186,17 +186,10 @@ h3 {
   justify-self: center;
   position: relative;
   margin-bottom: 4%;
-  &:after {
-    width: 100%;
-    height: 3px;
-    background-color: $brand-main-color;
-    content: " ";
-    display: flex;
-    position: absolute;
-    bottom: 7px;
-    z-index: -1;
-    left: 0;
-  }
+  display: block;
+  text-decoration: underline;
+  text-decoration-color: $brand-main-color; 
+  -webkit-text-decoration-color: $brand-main-color;
   span {
     color: $brand-main-color;
   }
@@ -309,6 +302,7 @@ h3 {
   padding: 5.5%;
   color: black;
   row-gap: 10rem;
+  grid-row-gap: 10rem;
   svg {
     max-width: 500px;
     width: 100%;

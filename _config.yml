@@ -5,7 +5,7 @@ email: success@designsuccess.com
 description: 'Transformational innovation story: Re-imagine and re-inventing MoneyGram. Re-invented from A to Z by design:success'
 keywords: 'design:success, design success, Innovation, transformational innovation, branding, advertising, store design, communication, MoneyGram'
 og_image: '/assets/img/og_image.jpg'
-url: http://designsuccess.com/moneygram/
+url: http://designsuccess.com/moneygram
 markdown: kramdown
 plugins:
 - jekyll-feed
