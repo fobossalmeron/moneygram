@@ -885,8 +885,18 @@
             margin-left: 25px;
         }
     }
-    #contact .locationContact~.locationContact p {
-        font-size: 1.5rem;
+    #contact .locationContact {
+        ul{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            li{
+               background-color: black;
+            }
+        }
+        &~.locationContact p {
+            font-size: 1.5rem;
+        }
     }
     .sectionContainer {
         .sectionList {
@@ -911,5 +921,8 @@
     }
     #contact h2 {
         font-size: 5rem;
+    }
+    #contact .locationMap {
+        min-width: 470px;
     }
 }
